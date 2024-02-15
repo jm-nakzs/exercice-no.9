@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BlogPosts</title>
+</head>
+
+<style>
+            *,
+    *::before,
+    *::after {
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+    html {
+        background-color: #fde018;
+    }
+
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #272727;
+        font-weight: bold;
+        padding: 1rem;
+    }
+
+    .main{
+    max-width: 1200px;
+    margin: 100px auto;
+    }
+
+    .card-top-h1 {
+        font-size: 24px;
+        font-weight: 400;
+        background-color: white;
+        border: 2px solid black;
+        padding: 18px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    }
+
+
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    }
+
+    .cards_item {
+    display: flex;
+    padding: 2rem;
+    
+    }
+
+    @media (min-width: 640px) {
+    .cards_item {
+        width: 50%;
+    }
+    }
+
+    @media (min-width: 896px) {
+    .cards_item {
+        width: 33.3333%;
+    }
+    }
+
+    .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 2px solid black;
+    }
+
+    .card_content {
+    padding: 1rem;
+    }
+
+    .card_title {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+    }
+
+    .card_text {
+    color: black;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+    }
+</style>
+
+
+<body>
+    <div class="main">
+        <h1 class="card-top-h1">Blog posts</h1>
+
+        <ul class="cards">
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_content">
+                <h2 class="card_title">Hello Title</h2>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet debitis porro aliquid temporibus? Non quidem vero amet laboriosam necessitatibus ipsam ad illo, suscipit ipsum odit ab molestiae expedita cupiditate ullam.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_content">
+                <h2 class="card_title">Hello Title</h2>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet debitis porro aliquid temporibus? Non quidem vero amet laboriosam necessitatibus ipsam ad illo, suscipit ipsum odit ab molestiae expedita cupiditate ullam.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_content">
+                <h2 class="card_title">Hello Title</h2>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet debitis porro aliquid temporibus? Non quidem vero amet laboriosam necessitatibus ipsam ad illo, suscipit ipsum odit ab molestiae expedita cupiditate ullam.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_content">
+                <h2 class="card_title">Hello Title</h2>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet debitis porro aliquid temporibus? Non quidem vero amet laboriosam necessitatibus ipsam ad illo, suscipit ipsum odit ab molestiae expedita cupiditate ullam.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_content">
+                <h2 class="card_title">Hello Title</h2>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet debitis porro aliquid temporibus? Non quidem vero amet laboriosam necessitatibus ipsam ad illo, suscipit ipsum odit ab molestiae expedita cupiditate ullam.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_content">
+                <h2 class="card_title">Hello Title</h2>
+                <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet debitis porro aliquid temporibus? Non quidem vero amet laboriosam necessitatibus ipsam ad illo, suscipit ipsum odit ab molestiae expedita cupiditate ullam.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+</body>
+</html>
